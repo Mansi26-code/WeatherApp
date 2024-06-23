@@ -1,0 +1,33 @@
+.InfoBox {
+    border: 2px solid #ccc;
+    padding: 20px;
+    
+    height: 480px; /* Adjust height based on content */
+    border-radius: 10px;
+    max-width: 400px; /* Limit maximum width */
+    margin: 20px auto;
+    margin-left: 480px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #f9f9f9;
+}
+
+.InfoBox h1 {
+    text-align: center;
+    font-size: 1.5em;
+    margin-bottom: 20px;
+}
+
+.InfoBox ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.InfoBox li {
+    margin: 10px 0;
+    font-size: 1.1em;
+}
+
+.InfoBox li strong {
+    display: inline-block;
+    width: 150px;
+}
